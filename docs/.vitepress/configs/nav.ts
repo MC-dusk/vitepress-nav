@@ -1,15 +1,44 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
-  { text: '前端导航', link: '/nav/' },
-  { text: '茂茂主页', link: 'https://fe-mm.com' },
   {
-    text: '茂茂物语',
-    link: 'https://notes.fe-mm.com',
+    text: '首页',
+    link: '/',
   },
-  { text: 'mmPlayer', link: 'https://netease-music.fe-mm.com' },
   {
-    text: '油猴脚本',
-    link: 'https://github.com/maomao1996/tampermonkey-scripts',
+    text: '测试',
+    items: [
+      {
+        text: '导航',
+        link: '/nav/',
+        activeMatch: '^/nav',
+      },
+      {
+        text: 'test',
+        items: [
+          {
+            text: 't1',
+            link: '/test',
+          },
+          {
+            text: 't2',
+            link: '/test2',
+          },
+        ],
+      },
+      {
+        text: 'icones',
+        link: 'https://icones.js.org/',
+      },
+    ],
+    activeMatch: '^/test',
+  },
+  {
+    text: '茂茂',
+    link: 'https://fe-mm.com/',
+  },
+  {
+    text: '在线markdown',
+    link: 'https://markdown-it.github.io/',
   },
 ]

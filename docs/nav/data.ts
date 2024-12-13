@@ -33,22 +33,11 @@ export const NAV_DATA: NavData[] = [
         desc: '开发人员的工具箱',
         link: 'https://tool.lu',
       },
-      {
-        icon: '/icons/json-cn.ico',
-        title: 'Json 中文网',
-        desc: 'JSON 在线解析及格式化验证',
-        link: 'https://www.json.cn',
-      },
     ],
   },
   {
     title: 'AI 导航',
     items: [
-      {
-        icon: '/icons/chatgpt.png',
-        title: 'ChatGPT（最强）',
-        link: 'https://chat.openai.com/chat',
-      },
       {
         icon: 'https://www.notion.so/images/logo-ios.png',
         title: 'Notion AI（笔记）',
@@ -252,36 +241,6 @@ export const NAV_DATA: NavData[] = [
         desc: '将声明性组件转换为精准高效更新 DOM 的 JavaScript 代码',
         link: 'https://svelte.dev',
       },
-      {
-        // icon: 'https://simpleicons.org/icons/jquery.svg',
-        icon: '/icons/jquery.svg',
-        title: 'jQuery API 中文文档',
-        desc: '一个兼容多浏览器的 JavaScript 框架',
-        link: 'https://jquery.cuishifeng.cn',
-      },
-    ],
-  },
-  {
-    title: 'CSS 相关',
-    items: [
-      {
-        icon: 'https://postcss.org/assets/logo-3e39b0aa.svg',
-        title: 'PostCSS',
-        desc: '一个用 JavaScript 转换 CSS 的工具',
-        link: 'https://postcss.org',
-      },
-      {
-        icon: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
-        title: 'Sass',
-        desc: '一个成熟，稳定，功能强大的专业级 CSS 扩展语言',
-        link: 'https://sass-lang.com',
-      },
-      {
-        icon: 'https://www.tailwindcss.cn/apple-touch-icon.png',
-        title: 'TailwindCSS 中文网',
-        desc: '一个功能类优先的 CSS 框架',
-        link: 'https://www.tailwindcss.cn',
-      },
     ],
   },
   {
@@ -292,12 +251,6 @@ export const NAV_DATA: NavData[] = [
         title: '微信小程序文档',
         desc: '微信小程序官方开发者文档',
         link: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
-      },
-      {
-        icon: '/icons/taro.svg',
-        title: 'Taro',
-        desc: '多端统一开发解决方案',
-        link: 'https://taro.jd.com',
       },
       {
         icon: 'https://web-assets.dcloud.net.cn/unidoc/zh/icon.png',
@@ -317,22 +270,10 @@ export const NAV_DATA: NavData[] = [
     title: 'Node 相关',
     items: [
       {
-        icon: '/icons/nodejs.svg',
-        title: 'Node.js',
-        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
-        link: 'https://nodejs.org/zh-cn',
-      },
-      {
         icon: 'https://expressjs.com/images/favicon.png',
         title: 'Express',
         desc: '基于 Node.js 平台，快速、开放、极简的 Web 开发框架',
         link: 'https://expressjs.com',
-      },
-      {
-        icon: '/icons/koa.svg',
-        title: 'Koa',
-        desc: '基于 Node.js 平台的下一代 web 开发框架',
-        link: 'https://koajs.com',
       },
       {
         icon: 'https://www.eggjs.org/favicon.png',
@@ -358,13 +299,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://echarts.apache.org/zh/index.html',
       },
       {
-        icon: 'https://antv.vision/icons/icon-72x72.png',
+        icon: 'https://antv.antgroup.com/icons/icon-72x72.png',
         title: 'AntV',
         desc: '蚂蚁集团全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
         link: 'https://antv.vision/zh/',
       },
       {
-        icon: 'https://d3js.org/favicon.png',
+        icon: 'https://d3js.org/logo.svg',
         title: 'D3.js',
         desc: '一个遵循 Web 标准用于可视化数据的 JavaScript 库',
         link: 'https://d3js.org',
@@ -490,29 +431,6 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-    title: '前端学习资料',
-    items: [
-      {
-        icon: 'https://developer.mozilla.org/apple-touch-icon.6803c6f0.png',
-        title: 'MDN | Web 开发者指南',
-        desc: 'Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资',
-        link: 'https://developer.mozilla.org/zh-CN',
-      },
-      {
-        icon: 'https://static.runoob.com/images/favicon.ico',
-        title: '菜鸟教程',
-        desc: '学的不仅是技术，更是梦想！',
-        link: 'https://www.runoob.com',
-      },
-      {
-        icon: '/icons/es6.svg',
-        title: 'ES6 入门教程',
-        desc: '阮一峰的网络日志',
-        link: 'http://es6.ruanyifeng.com',
-      },
-    ],
-  },
-  {
     title: '社区',
     items: [
       {
@@ -548,13 +466,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://segmentfault.com',
       },
       {
-        title: '博客园',
-        // icon: 'https://common.cnblogs.com/favicon.ico',
-        icon: '/icons/cnblogs.svg',
-        desc: '博客园是一个面向开发者的知识分享社区',
-        link: 'https://www.cnblogs.com',
-      },
-      {
         title: '知乎',
         icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
         desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
@@ -582,24 +493,6 @@ export const NAV_DATA: NavData[] = [
         title: '哔哩哔哩',
         // desc: '',
         link: 'https://www.bilibili.com',
-      },
-      {
-        icon: 'https://www.youtube.com/s/desktop/014dbbed/img/favicon_48x48.png',
-        title: 'YouTube',
-        // desc: '',
-        link: 'https://www.youtube.com',
-      },
-      {
-        icon: '/icons/twitter.svg',
-        title: 'Twitter',
-        // desc: '',
-        link: 'https://twitter.com',
-      },
-      {
-        icon: '/icons/pixiv.png',
-        title: 'Pixiv',
-        // desc: '',
-        link: 'https://www.pixiv.net',
       },
     ],
   },
