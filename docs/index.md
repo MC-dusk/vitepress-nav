@@ -3,14 +3,14 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 这是谁的
-  text: 前端导航模板
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  name: 无名的
+  text: 个人主页
+  tagline: 基于 VitePress 的导航页面
   image:
-    src: /logo.jpg
+    src: /logo.png
     alt: 胸针
   actions:
-    - text: 这是模板来源
+    - text: 模板来源
       link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
@@ -19,25 +19,35 @@ hero:
       link: /test
       theme: alt
 features:
-  - icon: 📖
-    title: 前端导航
-    details: 这是第一行<small>（这是小字）</small><br />这是第二行
-    link: /nav/
-    linkText: 这是linkText
   - icon: 📘
-    title: 这是测试
-    details: 忆！悟！
-    link: /test
-    linkText: 1! 5!
+    title: 博客
+    details: Issue-Blog
+    link: https://github.m416.asia/Issue-Blog/
+    linkText: Go
+  - icon: 📓
+    title: 文档
+    details: Docsify
+    link: https://github.m416.asia/docsify/
+    linkText: Go
+  - icon: 🔖
+    title: 书签
+    details: Pintree
+    link: https://github.m416.asia/pintree/
+    linkText: Go
   - icon: 🎷
     title: 音乐
-    details: This is true music
-    link: https://netease-music.fe-mm.com
-    linkText: ~~~
+    details: SPlayer
+    link: https://splayer.m416.asia
+    linkText: This is true music
+  - icon: 📖
+    title: 前端导航
+    details: 第一行<small>（小字）</small><br />第二行
+    link: /nav/
+    linkText: 链接文字
   - icon: 💯
     title: 向之所欣，已为陈迹。
     details: '<small class="bottom-small">兰亭集序</small>'
-    link: https://example.com
+    link: /
 ---
 
 <style>

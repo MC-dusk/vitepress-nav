@@ -27,18 +27,18 @@ export const nav: DefaultTheme.Config['nav'] = [
         ],
       },
       {
-        text: 'icones',
-        link: 'https://icones.js.org/',
+        text: '在线markdown',
+        link: 'https://markdown-it.github.io/',
       },
     ],
     activeMatch: '^/test',
   },
   {
-    text: '茂茂',
-    link: 'https://fe-mm.com/',
+    text: 'Worldle',
+    link: 'https://worldle.teuteuf.fr/',
   },
   {
-    text: '在线markdown',
-    link: 'https://markdown-it.github.io/',
+    text: 'Rainy Mood',
+    link: 'https://rainymood.com/',
   },
 ]
