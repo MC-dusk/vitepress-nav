@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: '这是title',
-  description: '这是description',
+  title: '无人之境',
+  description: 'Lost in dusk',
   head,
 
   lastUpdated: true,
@@ -27,7 +27,7 @@ export default defineConfig({
   themeConfig: {
     i18nRouting: false,
 
-    logo: '/logo.jpg',
+    logo: '/logo.png',
 
     nav,
     sidebar,
@@ -35,7 +35,7 @@ export default defineConfig({
     /* 右侧大纲配置 */
     outline: {
       level: 'deep',
-      label: '这是目录',
+      label: '目录TOC',
     },
 
     socialLinks: [
@@ -44,8 +44,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: '这是message',
-      copyright: '这是copyright',
+      message: 'Yesterday Once More',
+      copyright: 'Copyleft 2025',
     },
 
     lastUpdated: {
@@ -68,9 +68,9 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
 
     /*** 自定义配置 ***/
-    // visitor: {
-    //   badgeId: 'maomao1996.vitepress-nav-template',
-    // },
+    visitor: {
+      badgeId: 'm416.asia.vitepress-nav.1',
+    },
 
     // comment: {
     //   repo: 'maomao1996/vitepress-nav-template',
