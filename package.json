@@ -1,8 +1,8 @@
 {
-  "name": "vitepress-nav-template",
+  "name": "vitepress-nav",
   "type": "module",
   "version": "1.0.0",
-  "description": "基于 VitePress 打造个人前端导航网站",
+  "description": "基于 VitePress 的个人导航网站",
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs --port=8732",
@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/maomao1996/vitepress-nav-template/issues"
   },
-  "homepage": "https://github.com/maomao1996/vitepress-nav-template#readme",
+  "homepage": "https://github.com/maomao1996/vitepress-nav-template",
   "devDependencies": {
     "@femm/prettier": "^1.1.0",
     "@femm/tailwind-config": "^1.0.0",
