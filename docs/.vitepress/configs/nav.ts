@@ -51,12 +51,17 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
   },
   {
-    text: 'Worldle',
-    link: 'https://worldle.teuteuf.fr/',
-  },
-  {
-    text: 'Rainy Mood',
-    link: 'https://rainymood.com/',
+    text: 'Fun',
+    items: [
+      {
+        text: 'Worldle',
+        link: 'https://worldle.teuteuf.fr/',
+      },
+      {
+        text: 'Rainy Mood',
+        link: 'https://rainymood.com/',
+      },
+    ],
   },
   {
     text: '模板来源',
