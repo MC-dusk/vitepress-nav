@@ -12,8 +12,10 @@ hero:
   actions:
     - text: 前端导航
       link: /nav/
+      theme: alt
     - text: Markdown
       link: /csdn
+      theme: alt
     - text: 菜鸟教程
       link: https://www.runoob.com/
 features:

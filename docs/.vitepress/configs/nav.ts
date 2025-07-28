@@ -64,7 +64,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
   },
   {
-    text: '模板来源',
+    text: '模板',
     link: 'https://notes.fe-mm.com',
   },
 ]
