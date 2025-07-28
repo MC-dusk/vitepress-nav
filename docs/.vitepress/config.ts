@@ -40,7 +40,9 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com' },
-      { icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' },
+      { icon: 'twitter', link: 'https://twitter.com' },
+      { icon: 'youtube', link: 'https://youtube.com' },
+      { icon: 'github', link: 'https://github.com/MC-dusk/vitepress-nav' },
     ],
 
     footer: {

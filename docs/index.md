@@ -10,13 +10,13 @@ hero:
     src: /logo.png
     alt: 胸针
   actions:
-    - text: 模板来源
-      link: https://notes.fe-mm.com
     - text: 前端导航
       link: /nav/
       theme: alt
-    - text: 测试页
-      link: /test
+    - text: Markdown
+      link: /csdn
+    - text: 菜鸟教程
+      link: https://www.runoob.com/
       theme: alt
 features:
   - icon: 📘
@@ -47,7 +47,7 @@ features:
   - icon: 💯
     title: 向之所欣，已为陈迹。
     details: '<small class="bottom-small">兰亭集序</small>'
-    link: /
+    link: m416.asia
 ---
 
 <style>

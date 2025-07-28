@@ -2,5 +2,10 @@
 
 ## medium-zoom
 
-![medium-zoom](/logo.jpg)
+![medium-zoom](/logo.png)
 
+## vite-plugin-markdown-preview
+
+```vue preview
+<div class="flex-row-center rounded-lg w-full h-40 bg-blue-500">vue 组件预览测试</div>
+```
