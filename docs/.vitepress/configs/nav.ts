@@ -7,7 +7,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: '主页',
-    link: 'm416.asia',
+    link: 'https://m416.asia',
   },
   {
     text: '导航',
@@ -18,9 +18,17 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '测试',
     items: [
       {
+        text: 'csdn',
+        link: '/csdn',
+      },
+      {
         text: 'sumatra',
         link: '/sumatra',
         activeMatch: '^/sumatra',
+      },
+      {
+        text: '阵营九宫格',
+        link: '/阵营九宫格',
       },
       {
         text: 'test',
@@ -28,27 +36,19 @@ export const nav: DefaultTheme.Config['nav'] = [
           {
             text: 't1',
             link: '/test1',
+            activeMatch: '^/test1',
           },
           {
             text: 't2',
             link: '/test2',
           },
-          {
-            text: 'csdn',
-            link: '/csdn',
-          },
         ],
-      },
-      {
-        text: '阵营九宫格',
-        link: '/阵营九宫格',
       },
       {
         text: '在线markdown',
         link: 'https://markdown-it.github.io/',
       },
     ],
-    activeMatch: '^/test',
   },
   {
     text: 'Worldle',

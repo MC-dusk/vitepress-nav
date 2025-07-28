@@ -12,12 +12,10 @@ hero:
   actions:
     - text: 前端导航
       link: /nav/
-      theme: alt
     - text: Markdown
       link: /csdn
     - text: 菜鸟教程
       link: https://www.runoob.com/
-      theme: alt
 features:
   - icon: 📘
     title: 博客
@@ -47,7 +45,7 @@ features:
   - icon: 💯
     title: 向之所欣，已为陈迹。
     details: '<small class="bottom-small">兰亭集序</small>'
-    link: m416.asia
+    link: https://m416.asia
 ---
 
 <style>

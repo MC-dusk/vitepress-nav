@@ -41,7 +41,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com' },
-      { icon: 'twitter', link: 'https://twitter.com' },
       { icon: 'youtube', link: 'https://youtube.com' },
       { icon: 'github', link: 'https://github.com/MC-dusk/vitepress-nav' },
     ],

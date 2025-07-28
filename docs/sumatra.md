@@ -1,6 +1,6 @@
 # Keyboard shortcuts
 
-You can [customize keyboard shortcuts](Customizing-keyboard-shortcuts.md). Also see [standard Windows keyboard shortcuts](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec) for controls like tree view or edit fields.
+You can [customize keyboard shortcuts](https://github.com/sumatrapdfreader/sumatrapdf/blob/master/docs/md/Customizing-keyboard-shortcuts.md). Also see [standard Windows keyboard shortcuts](https://support.microsoft.com/en-us/windows/keyboard-shortcuts-in-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec) for controls like tree view or edit fields.
 
 :columns
 
