@@ -16,8 +16,8 @@ hero:
     - text: Markdown
       link: /csdn
       theme: alt
-    - text: 菜鸟教程
-      link: https://www.runoob.com/
+    - text: 主页
+      link: https://mc-dusk.github.io/vitepress-nav/
 features:
   - icon: 📘
     title: 博客

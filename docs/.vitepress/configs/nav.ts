@@ -6,10 +6,6 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/',
   },
   {
-    text: '主页',
-    link: 'https://m416.asia',
-  },
-  {
     text: '导航',
     link: '/nav/',
     activeMatch: '^/nav',
