@@ -22,22 +22,22 @@ features:
   - icon: 📘
     title: 博客
     details: Issue-Blog
-    link: https://github.m416.asia/Issue-Blog/
+    link: https://github.m417.asia/Issue-Blog/
     linkText: Go
   - icon: 📓
     title: 文档
     details: Docsify
-    link: https://github.m416.asia/docsify/
+    link: https://github.m417.asia/docsify/
     linkText: Go
   - icon: 🔖
     title: 书签
     details: Pintree
-    link: https://github.m416.asia/pintree/
+    link: https://github.m417.asia/pintree/
     linkText: Go
   - icon: 🎷
     title: 音乐
     details: SPlayer
-    link: https://splayer.m416.asia
+    link: https://splayer.m417.asia
     linkText: This is true music
   - icon: 📖
     title: 前端导航
@@ -47,7 +47,7 @@ features:
   - icon: 💯
     title: 向之所欣，已为陈迹。
     details: '<small class="bottom-small">兰亭集序</small>'
-    link: https://m416.asia
+    link: https://m417.asia
 ---
 
 <style>

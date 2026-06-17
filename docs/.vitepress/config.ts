@@ -47,7 +47,7 @@ export default defineConfig({
 
     footer: {
       message: 'Yesterday Once More',
-      copyright: 'Copyleft 2025',
+      copyright: 'Copyleft 2025-2026',
     },
 
     lastUpdated: {
